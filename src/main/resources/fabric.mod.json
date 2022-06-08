@@ -1,29 +1,29 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "heelys",
   "version": "${version}",
 
-  "name": "Example Mod",
+  "name": "Heelys Mod",
   "description": "This is an example description! Tell everyone what your mod is about!",
   "authors": [
     "LizIsTired"
   ],
   "contact": {
-    "homepage": "https://github.com/LizIsTired/starter",
-    "sources": "https://github.com/LizIsTired/starter/issues"
+    "homepage": "https://github.com/LizIsTired/heelys",
+    "sources": "https://github.com/LizIsTired/heelys/issues"
   },
 
   "license": "MPL-2.0",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/heelys/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.lizistired.starter.ExampleMod"
+      "net.lizistired.starter.Heelys"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "heelys.mixins.json"
   ],
 
   "depends": {

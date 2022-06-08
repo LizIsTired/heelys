@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "W W",
+    "W W"
+  ],
+  "key": {
+    "W": {
+      "tag": "heelys:custom_material"
+    }
+  },
+  "result": {
+    "item": "heelys:custom_material_boots",
+    "count": 1
+  }
+}
